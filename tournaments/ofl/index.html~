@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>osu! UCI Fall LAN</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="http://osuuci.com/resources/favicon.ico">
+    <link rel="shortcut icon" href="http://osuuci.com/resources/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://osuuci.com/tournaments/ofl/ofl.css" type="text/css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div class="buttons">
+      <table>
+	<tr>
+	  <td><a href="http://osuuci.com/home" class="button"><img alt="Home" title="Home" src="oflHome.png"/></a></td>
+	  <td><a href="http://osuuci.com/officers" class="button"><img alt="Officers" title="Officers" src="oflOfficers.png"/></a></td>
+	  <td><a href="http://osuuci.com/about" class="button"><img alt="About" title="About" src="oflAbout.png"/></a></td>
+	  <td><a href="http://osuuci.com/contact" class="button"><img alt="Contact" title="Contact" src="oflContact.png"/></a></td>
+	  <td><a href="http://osuuci.com/tournaments" class="button selected"><img alt="Tournaments" title="Tournaments" src="oflTournaments.png"/></a></td>
+	</tr>
+      </table>
+    </div>
+
+    <div class="mid">
+      
+      <!-- start buttons -->
+      
+      <div class="sideButtons">
+	<a href="http://osuuci.com/tournaments/ofl#introduction" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link1.png"/>
+            <p>Intro</p>
+          </div>
+	</a>
+	
+	<a href="http://osuuci.com/tournaments/ofl#location" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link2.png"/>
+            <p>Location</p>
+          </div>
+	</a>
+
+	<a href="http://osuuci.com/tournaments/ofl#registration" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link3.png"/>
+            <p>Registration</p>
+          </div>
+	</a>
+
+	<a href="http://osuuci.com/tournaments/ofl#format" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link4.png"/>
+            <p>Format</p>
+          </div>
+	</a>
+
+	<a href="http://osuuci.com/tournaments/ofl#prizing" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link5.png"/>
+            <p>Prizing</p>
+          </div>
+	</a>
+
+	<a href="http://osuuci.com/tournaments/ofl#rules" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link6.png"/>
+            <p>Rules</p>
+          </div>
+	</a>
+
+	<a href="http://osuuci.com/tournaments/ofl#brackets" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link7.png"/>
+            <p>Brackets</p>
+          </div>
+	</a>
+
+	<a href="http://osuuci.com/tournaments/ofl#schedule" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link8.png"/>
+            <p>Schedule</p>
+          </div>
+	</a>
+	
+	<a href="http://osuuci.com/tournaments/ofl#mappools" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link9.png"/>
+            <p>Map Pools</p>
+          </div>
+	</a>
+
+
+	<a href="http://osuuci.com/tournaments/ofl#contact" class="noDecoration">
+          <div class="sideButton">
+            <img src="http://osuuci.com/tournaments/ofl/link10.png"/>
+            <p>Contact</p>
+          </div>
+	</a>
+      </div>    
+      
+      <!-- end buttons -->
+
+      <img src="logo300.png"/>
+      <h2 id="introduciton">osu! UCI Fall LAN</h2>
+      <p>osu! UCI is excited to host its first osu! LAN at UCI this fall quarter. Over the event, we'll be hosting casual lobbies and streaming all day, in addition to managing tournaments for two divisions of players, provided we have enough signups. This is a live BYOC(Bring Your Own Computer) event, so make sure to bring all your necessary gadgets and accessories.</p>
+
+      <h2 id="location">Location</h2>
+      <p>The OFL takes place on Sunday November 22nd, 2015 from 11AM to 9PM PST/GMT-8. We are located in the Emerald Bay Meeeting Rooms in the UCI Student Center, full address: <a href="https://www.google.com/maps/place/UCI+Student+Center+%26+Event+Services/@33.6489599,-117.8444107,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x54a63a5775b1ff92">311 W Peltason Dr, Irvine, CA 92697</a>. Food is not provided at the event, but there are plenty of chains and restaurants in walking distance around the area. All-day parking is available in the adjacent Student Center Parking Structure for $10.</p>
+
+      <img src="emeraldBay.png">
+      <p class="caption">Emerald Bay Rooms in the Student Center</p>
+      
+      <h2 id="registration">Registration</h2>
+      <p>To help cover rental costs for the event, we are charging a $5 entrance fee for tournament entrants. If you are here to simply spectate or to play in our casual lobbies, you do not need to pay. We accept payment in-person or through PayPal. Extra cash will be put into the prizing for the Master's division first place prize.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="T4SUEEPJT6NQ2">
+	<input style="display: block; margin: auto" type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      </form>
+      <p>In addition, please fill out this Google form so we can better organize you in the tournament and reach you in case of an emergency.</p>
+      <div>
+	<iframe src="https://docs.google.com/forms/d/1fo726r0ZY7epfToDx5-xAQs0m4wNU6gy9HcY_ZYkZSo/viewform?embedded=true" width="650" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+
+      <h2 id="format">Format</h2>
+      <p>Phase 1</p>
+      <ul>
+	<li>Swiss</li>
+	<li>4 rounds, one hour each</li>
+	<li>First to 4 wins</li>
+	<li>Top 8 advance to phase 2</li>
+      </ul>
+
+      <p>Phase 2</p>
+      <ul>
+	<li>Single elimination</li>
+	<li>4 rounds, one hour each</li>
+	<li>Round of 8 is first to 5 wins</li>
+	<li>Semis, consolation, and finals are first to 6 wins</li>
+      </ul>
+
+      <p>To accommodate varying ranks of players, we will be breaking up the tournament into two divisions: Master and Novice Divisions. The rank cutoffs will be decided by staff. If we cannot reach a minimum of 8 players for each division, then we will not make separate divisions.</p>
+
+      <h2 id="prizing">Prizing</h2>
+      <p>osu! supporter will be given out, provided by the help of the osu! staff (thanks!). We'll be giving out osu! UCI merchandise, mainly in the form of our cute charms that we've made last year. Aaron has also been kind enough to also donate a few of his two-K keyboards that he personally built himself for the top 4 placers of the Master division. Finally, the top Master player will receive a cash prize for the money left over from our tournament entrance fees. Prizings are subject to change.</p>
+      <img src="charm.png"/>
+      <p class="caption">Charms</p>
+      <img src="two-K.png"/>
+      <p class="caption">Aaron's two-K keyboard</p>
+      
+      <p>Master Division</p>
+      <ul>
+	<li>1st: 3 months of supporter, two-K, osu! UCI merchandise, cash prizing</li>
+	<li>2nd: 2 months of supporter, two-K, osu! UCI merchandise</li>
+	<li>3rd: 1 month of supporter, two-K, osu! UCI merchandise</li>
+	<li>4th: 1 month of supporter, two-K, osu! UCI merchandise</li>
+      </ul>
+      <p>Novice Division</p>
+      <ul>
+	<li>1st: 3 months of supporter, osu! UCI merchandise</li>
+	<li>2nd: 2 months of supporter, osu! UCI merchandise</li>
+	<li>3rd: 1 month of supporter, osu! UCI merchandise</li>
+	<li>4th: 1 month of supporter, osu! UCI merchandise</li>
+      </ul>
+
+      <h2 id="rules">Rules</h2>
+      <p>LAN rules and structure are subject to alterations by the administrators. Administrators have the final say in disputes.</p>
+      <ul>
+        <li>Matches are in osu! standard with score as the win condition and head to head as team mode</li>
+        <li>!roll begins every match</li>
+        <li>Lower roll decides warm up map (any song <5 minutes, not in map pool)</li>
+							<li>Higher roll decides first map</li>
+        <li>Thereafter, game loser decides next map</li>
+        <li>Tiebreaker match decides last round</li>
+        <li>No Fail can be applied to preserve past scores</li>
+        <li>On first disconnect, the opponent decides to rematch or not</li>
+        <li>Second and further disconnects are counted as losses</li>
+	<li>Match winners must PM the lobby's match history to <a href="https://osu.ppy.sh/u/1472763">osuuci dot com</a></li>
+        <li>Check in with a referee after your match to verify the end results</li>
+        <li>Missing your match counts as a loss; please show up a few minutes before your allotted time slot so you and the administrators can set up in time</li>
+        <li>Unsportsmanlike behavior and harassment will not be tolerated and can factor into your removal</li>
+      </ul>
+      
+      <h2 id="brackets">Brackets</h2>
+      <p>To be finalized.</p>
+
+      <h2 id="schedule">Schedule</h2>
+      <p>To be decided.</p>
+
+      <h2 id="mappools">Map Pools</h2>
+        <div>
+        <p>The map pools are divided into two sets of two pools. 2 per division.</p>
+          <h2>Master Division - Pool 1</h2>
+          <p></p>
+            <table>
+              <colgroup>
+                <col span="1" style="background-color:#ff5050" width="90px">
+                <col span="1" style="background-color:#ff9933" width="230px">
+                <col span="1" style="background-color:#ff5050" width="150px">
+                <col span="1" style="background-color:#ff9933" width="120px">
+                <col span="1" style="background-color:#ff5050" width="40px">
+                <col span="1" style="background-color:#ff9933" width="40px">
+              </colgroup>
+              
+              <tr>
+                <td>Mod</td>
+                <td>Title</td>
+                <td>Artist</td>
+                <td>Difficulty</td>
+                <td>Stars</td>
+                <td>Length</td>
+              </tr>
+              <tr>
+                <td>Double Time</td>
+                <td><a href="https://osu.ppy.sh/b/710753">Koi Yuki</a></td>
+                <td>Silent Siren</td>
+                <td>Yuki</td>
+                <td>4.85</td>
+                <td>3:25</td>
+              </tr>
+              <tr>
+                <td>Double Time</td>
+                <td><a href="https://osu.ppy.sh/b/291562">Saturday Night</a></td>
+                <td>Crayon Pop</td>
+                <td>Hard</td>
+                <td>4.93</td>
+                <td>2:02</td>
+              </tr>
+              <tr>
+                <td>Double Time</td>
+                <td><a href="https://osu.ppy.sh/b/351189">Tear Rain</a></td>
+                <td>cYsmix feat. Emmy</td>
+                <td>Insane</td>
+                <td>5.01</td>
+                <td>2:41</td>
+              </tr>
+              <tr>
+                <td>Double Time</td>
+                <td><a href="https://osu.ppy.sh/s/51515">Clover</a></td>
+                <td>Duca</td>
+                <td>Collab</td>
+                <td>5.02</td>
+                <td>2:39</td>
+              </tr>
+              <tr>
+                <td>Double Time</td>
+                <td><a href="https://osu.ppy.sh/b/92471">Melancholic</a></td>
+                <td>Tianshi</td>
+                <td>Rin</td>
+                <td>5.08</td>
+                <td>2:23</td>
+              </tr>
+              <tr>
+                <td>Hard Rock</td>
+                <td><a href="https://osu.ppy.sh/b/355510">Blueberry Train</a></td>
+                <td>Uchida Aya</td>
+                <td>Insane</td>
+                <td>4.86</td>
+                <td>3:36</td>
+              </tr>
+              <tr>
+                <td>Hard Rock</td>
+                <td><a href="https://osu.ppy.sh/b/154165">ChaiN De/structioN</a></td>
+                <td>Hatsune Miku</td>
+                <td>Loneliness</td>
+                <td>4.87</td>
+                <td>3:15</td>
+              </tr>
+              <tr>
+                <td>Hard Rock</td>
+                <td><a href="https://osu.ppy.sh/b/159316">Sekai de Hitotsu no Takaramono</a></td>
+                <td>Boku wa Piacere!</td>
+                <td>Insane</td>
+                <td>4.93</td>
+                <td>2:30</td>
+              </tr>
+              <tr>
+                <td>Hard Rock</td>
+                <td><a href="https://osu.ppy.sh/b/364473">Idola No Circus</a></td>
+                <td>Himeringo</td>
+                <td>Expert</td>
+                <td>4.96</td>
+                <td>3:28</td>
+              </tr>
+              <tr>
+                <td>Hard Rock</td>
+                <td><a href="https://osu.ppy.sh/b/429797">Summer Time Music</a></td>
+                <td>Hana & X-Plorez</td>
+                <td>Insane</td>
+                <td>4.97</td>
+                <td>4:13</td>
+              </tr>
+              <tr>
+                <td>Hidden</td>
+                <td><a href="https://osu.ppy.sh/b/375467">Red Signal</a></td>
+                <td>Hanatan</td>
+                <td>Insane</td>
+                <td>4.89</td>
+                <td>4:13</td>
+              </tr>
+              <tr>
+                <td>Hidden</td>
+                <td><a href="https://osu.ppy.sh/b/304602">Daisy</a></td>
+                <td>Lifetheory</td>
+                <td>Blossom</td>
+                <td>4.92</td>
+                <td>1:53</td>
+              </tr>
+              <tr>
+                <td>Hidden</td>
+                <td><a href="https://osu.ppy.sh/b/139634">Killer Song (Short Ver.)</a></td>
+                <td>yanaginagi</td>
+                <td>Insane</td>
+                <td>4.92</td>
+                <td>2:13</td>
+              </tr>
+              <tr>
+                <td>Hidden</td>
+                <td><a href="https://osu.ppy.sh/b/93842">Gold Dust</a></td>
+                <td>DJ Fresh</td>
+                <td>Insane</td>
+                <td>4.93</td>
+                <td>3:01</td>
+              </tr>
+              <tr>
+                <td>Hidden</td>
+                <td><a href="https://osu.ppy.sh/b/434870">Wahrheit</a></td>
+                <td>Yousei Teitoku</td>
+                <td>Revelation</td>
+                <td>5.02</td>
+                <td>4:42</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/507910">Chikyuu Saigo no Kokuhaku o</a></td>
+                <td>yuikonnu</td>
+                <td>Laurier's Insane</td>
+                <td>4.93</td>
+                <td>3:59</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/502418">Once Again</a></td>
+                <td>Tristam</td>
+                <td>Collab</td>
+                <td>4.98</td>
+                <td>3:33</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/725622">Rashisa</a></td>
+                <td>Super Beaver</td>
+                <td>deetz' MANDOM</td>
+                <td>5.09</td>
+                <td>4:20</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/290799">Kunoichi demo Koi ga Shitai</a></td>
+                <td>yuikonnu & ayaponzu*</td>
+                <td>Insane</td>
+                <td>5.1</td>
+                <td>3:51</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/297411">Artcore JINJA</a></td>
+                <td>An</td>
+                <td>Lunatic</td>
+                <td>5.01</td>
+                <td>2:12</td>
+              </tr>
+              <tr>
+                <td>Tiebreaker</td>
+                <td><a href="https://osu.ppy.sh/b/661243">Hoshi Ga Matataku Konna Yoru Ni</a></td>
+                <td>supercell</td>
+                <td>Starlight</td>
+                <td>5.27</td>
+                <td>4:24</td>
+              </tr>
+
+            </table>
+
+        </div>
+        <div>
+          <h2>Master Division - Pool 2<h2>
+          <p>Coming soon.</p>
+        </div>
+        <div>
+          <h2>Novice Division - Pool 1</h2>
+          <p></p>
+            <table>
+              <colgroup>
+                <col span="1" style="background-color:#ff5050" width="90px">
+                <col span="1" style="background-color:#ff9933" width="200px">
+                <col span="1" style="background-color:#ff5050" width="150px">
+                <col span="1" style="background-color:#ff9933" width="120px">
+                <col span="1" style="background-color:#ff5050" width="40px">
+                <col span="1" style="background-color:#ff9933" width="40px">
+              </colgroup>
+              
+              <tr>
+                <td>Mod</td>
+                <td>Title</td>
+                <td>Artist</td>
+                <td>Difficulty</td>
+                <td>Stars</td>
+                <td>Length</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/489768">HOME</a></td>
+                <td>DECO*27*40mP</td>
+                <td>Reside</td>
+                <td>3.81</td>
+                <td>4:15</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/96382">Hero</a></td>
+                <td>supercell</td>
+                <td>Hard</td>
+                <td>3.69</td>
+                <td>2:54</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/354167">Mission ASCII</a></td>
+                <td>Traktion</td>
+                <td>Hyper</td>
+                <td>3.89</td>
+                <td>3:18</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/173015">Paintings? Oh,Yeah.</a></td>
+                <td>96Neko</td>
+                <td>Insane</td>
+                <td>3.9</td>
+                <td>2:54</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/274085">Natsukoi Hanabi</a></td>
+                <td>Shano x 40mP</td>
+                <td>Insane</td>
+                <td>3.91</td>
+                <td>4:36</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/302127">Usotsuki Maker</a></td>
+                <td>40mP</td>
+                <td>Insane</td>
+                <td>3.94</td>
+                <td>3:04</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/524900">Tengaku</a></td>
+                <td>Hanatan</td>
+                <td>Yauxo's Insane</td>
+                <td>3.95</td>
+                <td>2:08</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/190951">Remote Control</a></td>
+                <td>Saiya</td>
+                <td>lolcube's Hard</td>
+                <td>2:21</td>
+                <td>2:21</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/443272">Mata Ashita</a></td>
+                <td>Yuuki Aoi</td>
+                <td>Insane</td>
+                <td>3.43</td>
+                <td>3:56</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/577427">Goodbye</a></td>
+                <td>CircusP</td>
+                <td>Goodbye</td>
+                <td>3.43</td>
+                <td>3:22</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/413446">Kaze ni Naru</a></td>
+                <td>Tsuji Ayano</td>
+                <td>Kaze ni Naru</td>
+                <td>3.56</td>
+                <td>2:46</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/474190">Ghost Assasin</a></td>
+                <td>Maduk ft. Veela</td>
+                <td>Damnae's Insane</td>
+                <td>3.98</td>
+                <td>2:32</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/171126">Leave the Lights On</a></td>
+                <td>Meiko</td>
+                <td>Insane</td>
+                <td>4.07</td>
+                <td>1:52</td>
+              </tr>
+              <tr>
+                <td>No Mod</td>
+                <td><a href="https://osu.ppy.sh/b/580583">Kagefumi</a></td>
+                <td>nano.RIPE</td>
+                <td><3</td>
+                <td>4.11</td>
+                <td>2:24</td>
+              </tr>
+              <tr>
+                <td>Tiebreaker</td>
+                <td><a href="https://osu.ppy.sh/b/163789&m=0">Souzou Forest</a></td>
+                <td>yuikonnu</td>
+                <td>Insane</td>
+                <td>4.3</td>
+                <td>3:37</td>
+              </tr>
+
+            </table>
+          
+        </div>
+        <div>
+          <h2>Novice Division - Pool 2</h2>
+          <p>Coming soon.</p>
+        </div>
+      
+      
+
+      <h2 id="contact">Contact</h2>
+      <p>If you have any questions, comments, or concerns, feel free to message any one of the <a href="http://osuuci.com/officers">osu! UCI officers</a>, send an email to <a href="mailto:osuuci@gmail.com">osuuci@gmail.com</a>, or <a href="https://twitter.com/osuUCI">Tweet</a> at us.</p>
+
+    </div>
+  </body>
+</html>
